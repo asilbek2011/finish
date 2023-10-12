@@ -1,0 +1,34 @@
+.box {
+    margin-top: 100px;
+
+    .container {
+        background: url(../imges/our.png) no-repeat;
+        background-size: contain;
+        width: 375px;
+        height: 72px;
+    }
+}
+
+.box__list{
+    display: flex;
+    margin-left: -450px;
+}
+
+.box__item{
+    padding-left: 50px;
+}
+
+.box__text{
+    color: var(--color-Blue);
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: -20px;
+}
+
+.box__heading{
+    width: 257px;
+}
